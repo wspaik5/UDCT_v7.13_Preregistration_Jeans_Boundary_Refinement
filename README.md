@@ -5,7 +5,7 @@ Won Shik Paik | Independent Researcher, Auckland, New Zealand | 14 October 2026
 ## Permanent links and status
 
 - GitHub repository: https://github.com/wspaik5/UDCT_v7.13_Preregistration_Jeans_Boundary_Refinement
-- Zenodo reserved DOI: https://doi.org/10.5281/zenodo.23342971 **(reserved; not a published preregistration until Zenodo publication)**
+- Zenodo published DOI: https://doi.org/10.5281/zenodo.23342971 **(published preregistration; protocol revision dated 14 October 2026)**
 - v7.12 post-registration results: https://doi.org/10.5281/zenodo.23296444
 - v7.12 preregistration: https://doi.org/10.5281/zenodo.23280972
 - GQUMOND prior-art correction: https://doi.org/10.5281/zenodo.23117541
