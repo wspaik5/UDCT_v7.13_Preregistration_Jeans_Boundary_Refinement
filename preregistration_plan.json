@@ -1,0 +1,43 @@
+{
+  "version": "v7.13-preregistration",
+  "status": "prospective, no v7.13 galaxy results",
+  "doi_reserved_not_published": "https://doi.org/10.5281/zenodo.23342971",
+  "github": "https://github.com/wspaik5/UDCT_v7.13_Preregistration_Jeans_Boundary_Refinement",
+  "source": "v7.12 adaptive_brackets.csv",
+  "targets": 24,
+  "primary_goal": "separate numerical-margin-limited sign transitions from demonstrably converged sign transitions",
+  "rules": {
+    "freeze_24_brackets": true,
+    "do_not_treat_raw_sign_as_resolved": true,
+    "baseline_four_deciding_configurations": [
+      [
+        "default",
+        0.002
+      ],
+      [
+        "refined",
+        0.002
+      ],
+      [
+        "default",
+        0.0005
+      ],
+      [
+        "refined",
+        0.0005
+      ]
+    ],
+    "primary_stop": "if any decision remains margin-limited, mark unresolved; do not report exact boundary",
+    "claim_limit": "no new gravity law, universal Hessian threshold, stable distribution function or observational fit"
+  },
+  "frozen_hashes": {
+    "UDCT_v7_06_Hessian_Term_Sign_Audit_reproduce.py": "a64440e1350ae8bf10eb3188ec34829b6d586abf275de5cdc841a50ad3478284",
+    "UDCT_v7_10_Postregistration_run.py": "a4d1a07ebcaa06348be3022d0f1f6ca463347e00194f7fde59f2bd9dbcd521b7",
+    "UDCT_v7_11_Preregistration_Anisotropic_Jeans.py": "3f00abae251d7be64a4ca5abb48b4f550644b21c946206571fd448464b13ade2",
+    "UDCT_v7_12_Preregistration_Jeans_Transition.py": "3b5f93766940243d257f865691f708fd904b2ba9384003ae407f911179059b49",
+    "UDCT_v7_12_Postregistration_Run.py": "2b7b108a09b60954e18cb3046e4ae1be951580c065193287a51a3ed0c0e8daf6",
+    "case_decisions.csv": "52ff6ed252afed2dec175566ca32a902c5c2fd2b95eec7b6870df288f7babf3a",
+    "adaptive_brackets.csv": "ce19569bb5b533c42605da14a04f362a8e7af45a09a845ac64cb37d52afaee3b",
+    "requirements.txt": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3"
+  }
+}
